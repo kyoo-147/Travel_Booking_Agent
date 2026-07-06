@@ -327,5 +327,5 @@ Private - Tài liệu lưu trữ nội bộ và học thuật.
 ---
 
 <p align="center">
-  Được hoàn thiện với ❤️ bởi TravelAgent Team
+  Được hoàn thiện với ❤️ bởi Bui Minh Cuong
 </p>
