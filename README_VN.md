@@ -8,9 +8,7 @@
   <strong>Nền tảng lập kế hoạch du lịch thông minh sử dụng AI Agent và kiến trúc Microservices</strong>
 </p>
 
-<p align="center">
-  <img src="docs/travel_agent_ui.jpg" alt="Giao diện TravelAgent UI Mockup" width="800" />
-</p>
+
 
 <p align="center">
   <a href="#-thông-báo-lưu-trữ">Thông Báo Lưu Trữ</a> •
@@ -93,6 +91,10 @@ Dự án được tổ chức dưới dạng monorepo quản lý các workspaces
 - `libs/sdk`: Bộ công cụ SDK và các client API nội bộ.
 
 ### Sơ Đồ Hệ Thống
+
+<p align="center">
+  <img src="docs/system_architecture.jpg" alt="Sơ đồ kiến trúc hệ thống" width="800" />
+</p>
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐

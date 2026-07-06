@@ -8,9 +8,7 @@
   <strong>An Intelligent Travel Planning Platform Powered by AI Agents and Microservices</strong>
 </p>
 
-<p align="center">
-  <img src="docs/travel_agent_ui.jpg" alt="TravelAgent UI Mockup" width="800" />
-</p>
+
 
 <p align="center">
   <a href="#-project-notice">Project Notice</a> •
@@ -93,6 +91,10 @@ The project uses a monorepo workspace setup:
 - `libs/sdk`: Shared code utilities and API client SDK.
 
 ### System Diagram
+
+<p align="center">
+  <img src="docs/system_architecture.jpg" alt="System Architecture Diagram" width="800" />
+</p>
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
