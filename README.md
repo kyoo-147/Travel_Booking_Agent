@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="docs/system_architecture.jpg" alt="System Architecture Diagram" width="800" />
+</p>
+
+<p align="center">
   <a href="#project-notice">Project Notice</a> •
   <a href="#features">Features</a> •
   <a href="#architecture">Architecture</a> •
@@ -91,10 +95,6 @@ The project uses a monorepo workspace setup:
 - libs/sdk: Shared code utilities and API client SDK.
 
 ### System Diagram
-
-<p align="center">
-  <img src="docs/system_architecture.jpg" alt="System Architecture Diagram" width="800" />
-</p>
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐

@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="docs/system_architecture.jpg" alt="Sơ đồ kiến trúc hệ thống" width="800" />
+</p>
+
+<p align="center">
   <a href="#thông-báo-lưu-trữ">Thông Báo Lưu Trữ</a> •
   <a href="#tính-năng">Tính năng</a> •
   <a href="#kiến-trúc">Kiến trúc</a> •
@@ -91,10 +95,6 @@ Dự án được tổ chức dưới dạng monorepo quản lý các workspaces
 - libs/sdk: Bộ công cụ SDK và các client API nội bộ.
 
 ### Sơ Đồ Hệ Thống
-
-<p align="center">
-  <img src="docs/system_architecture.jpg" alt="Sơ đồ kiến trúc hệ thống" width="800" />
-</p>
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
