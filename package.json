@@ -1,0 +1,46 @@
+{
+  "name": "travel-agent-mvp",
+  "version": "1.0.0",
+  "description": "AI-Powered Travel Planning Platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "libs/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:services\" \"npm run dev:web\"",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:services": "concurrently \"npm run dev:auth\" \"npm run dev:user\" \"npm run dev:trip\" \"npm run dev:ai\"",
+    "dev:auth": "cd services/auth-service && npm run dev",
+    "dev:user": "cd services/user-service && npm run dev",
+    "dev:trip": "cd services/trip-service && npm run dev",
+    "dev:ai": "cd services/ai-service && npm run dev",
+    "build": "npm run build:libs && npm run build:services && npm run build:web",
+    "build:libs": "npm run build --workspaces --if-present --workspace=libs/*",
+    "build:services": "npm run build --workspaces --if-present --workspace=services/*",
+    "build:web": "cd apps/web && npm run build",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "db:migrate": "cd services/trip-service && npm run db:migrate",
+    "db:seed": "cd services/trip-service && npm run db:seed",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  }
+}

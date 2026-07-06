@@ -1,0 +1,70 @@
+{
+  "chat": {
+    "title": "Travel Assistant",
+    "placeholder": "Ask me anything about your trip...",
+    "send": "Send",
+    "typing": "Travel Assistant is typing...",
+    "welcome": {
+      "greeting": "👋 Hi! I'm your Travel Assistant",
+      "description": "I can help you plan trips, find destinations, manage bookings, and answer travel questions."
+    },
+    "quickActions": {
+      "planTrip": "Plan a new trip",
+      "findDestination": "Find destinations",
+      "checkBooking": "Check my bookings",
+      "getRecommendations": "Get recommendations"
+    },
+    "language": {
+      "switch": "Switch Language",
+      "english": "English",
+      "vietnamese": "Tiếng Việt"
+    },
+    "errors": {
+      "networkError": "Network error. Please try again.",
+      "generalError": "Something went wrong. Please try again.",
+      "invalidInput": "Please enter a valid message."
+    },
+    "buttons": {
+      "retry": "Retry",
+      "close": "Close",
+      "minimize": "Minimize"
+    },
+    "messageTypes": {
+      "tripSuggestion": "Trip Suggestion",
+      "bookingInfo": "Booking Information",
+      "recommendation": "Recommendation"
+    },
+    "prompts": {
+      "destination": "Where would you like to go?",
+      "dates": "When are you planning to travel?",
+      "budget": "What's your budget range?",
+      "travelers": "How many people will be traveling?",
+      "preferences": "Any specific preferences or requirements?"
+    },
+    "responses": {
+      "processingRequest": "Let me help you with that...",
+      "searchingFlights": "Searching for flights...",
+      "searchingHotels": "Looking for accommodations...",
+      "generatingItinerary": "Creating your personalized itinerary...",
+      "foundOptions": "I found some great options for you!",
+      "needMoreInfo": "I need a bit more information to help you better."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close"
+  }
+}

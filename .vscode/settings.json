@@ -1,0 +1,5 @@
+{
+    "powerquery.client.additionalSymbolsDirectories": [
+        "/home/navin/Working/Booking_Agents/travel-agent-mvp/.vscode/excel-pq-symbols"
+    ]
+}

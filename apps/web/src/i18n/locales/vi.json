@@ -1,0 +1,70 @@
+{
+  "chat": {
+    "title": "Trợ lý Du lịch",
+    "placeholder": "Hỏi tôi bất cứ điều gì về chuyến đi của bạn...",
+    "send": "Gửi",
+    "typing": "Trợ lý Du lịch đang nhập...",
+    "welcome": {
+      "greeting": "👋 Xin chào! Tôi là Trợ lý Du lịch của bạn",
+      "description": "Tôi có thể giúp bạn lên kế hoạch du lịch, tìm điểm đến, quản lý đặt phòng và trả lời các câu hỏi về du lịch."
+    },
+    "quickActions": {
+      "planTrip": "Lên kế hoạch chuyến đi mới",
+      "findDestination": "Tìm điểm đến",
+      "checkBooking": "Kiểm tra đặt phòng của tôi",
+      "getRecommendations": "Nhận gợi ý"
+    },
+    "language": {
+      "switch": "Đổi Ngôn ngữ",
+      "english": "English",
+      "vietnamese": "Tiếng Việt"
+    },
+    "errors": {
+      "networkError": "Lỗi mạng. Vui lòng thử lại.",
+      "generalError": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "invalidInput": "Vui lòng nhập tin nhắn hợp lệ."
+    },
+    "buttons": {
+      "retry": "Thử lại",
+      "close": "Đóng",
+      "minimize": "Thu nhỏ"
+    },
+    "messageTypes": {
+      "tripSuggestion": "Gợi ý Chuyến đi",
+      "bookingInfo": "Thông tin Đặt phòng",
+      "recommendation": "Gợi ý"
+    },
+    "prompts": {
+      "destination": "Bạn muốn đi đâu?",
+      "dates": "Bạn dự định đi du lịch khi nào?",
+      "budget": "Ngân sách của bạn là bao nhiêu?",
+      "travelers": "Có bao nhiêu người sẽ đi cùng?",
+      "preferences": "Có yêu cầu hay sở thích đặc biệt nào không?"
+    },
+    "responses": {
+      "processingRequest": "Để tôi giúp bạn với điều đó...",
+      "searchingFlights": "Đang tìm kiếm chuyến bay...",
+      "searchingHotels": "Đang tìm kiếm chỗ ở...",
+      "generatingItinerary": "Đang tạo lịch trình cá nhân hóa cho bạn...",
+      "foundOptions": "Tôi đã tìm thấy một số lựa chọn tuyệt vời cho bạn!",
+      "needMoreInfo": "Tôi cần thêm một chút thông tin để giúp bạn tốt hơn."
+    }
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "success": "Thành công",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "save": "Lưu",
+    "edit": "Chỉnh sửa",
+    "delete": "Xóa",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "sort": "Sắp xếp",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "close": "Đóng"
+  }
+}
