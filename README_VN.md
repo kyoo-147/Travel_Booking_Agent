@@ -32,6 +32,7 @@ TravelAgent là nền tảng hỗ trợ lập kế hoạch du lịch cá nhân h
 Các chức năng chính:
 - Trò chuyện cùng AI Agent: Trò chuyện tự nhiên để tìm kiếm địa điểm, lên lịch trình và đặt các câu hỏi du lịch.
 - Autonomous Booking Agent: Tự động hỗ trợ người dùng tìm kiếm, đề xuất và xác nhận đặt phòng khách sạn.
+- Tương tác Zalo tự động: Kết nối tài khoản Zalo cá nhân qua mã QR để tự động liên hệ, trao đổi thông tin phòng và thương lượng trực tiếp với đại diện khách sạn.
 - Bộ nhớ ngữ nghĩa (RAG): Lưu trữ và gợi nhớ sở thích của người dùng qua các phiên trò chuyện bằng Vector Database.
 - Tìm kiếm Web thời gian thực: Tích hợp các API tìm kiếm để cập nhật tin tức du lịch, giá phòng mới nhất.
 - Nghiên cứu chuyên sâu (Deep Research): Phân tích và tổng hợp thông tin đa nguồn về các địa điểm du lịch.
@@ -46,6 +47,7 @@ Các chức năng chính:
 - Deep Research: Tự động thực hiện các chuỗi tìm kiếm chuyên sâu và tổng hợp báo cáo chi tiết từ nhiều nguồn tài nguyên web.
 
 ### Trợ Lý Đặt Phòng (Booking Agent)
+- Tương tác Zalo tự động: Sử dụng thư viện zalo-api-final cho phép xác thực tài khoản Zalo qua mã QR, lưu thông tin phiên đăng nhập và tự động gửi tin nhắn hỏi thông tin phòng tới khách sạn. Hệ thống lắng nghe các tin nhắn phản hồi từ khách sạn thông qua một webhook listener để tự động cập nhật trạng thái đặt phòng lên giao diện.
 - Form đặt phòng trực quan với các cơ chế kiểm tra dữ liệu chặt chẽ.
 - Hỗ trợ nhiều loại hình lưu trú (khách sạn, resort, homestay, villa).
 - Lọc theo các tiện ích bắt buộc hoặc ưu tiên.

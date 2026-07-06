@@ -32,6 +32,7 @@ TravelAgent is a personalized AI-powered travel planning platform designed to si
 Key functionalities:
 - AI Conversational Agent: Chat naturally to discover destinations, plan itineraries, and ask travel questions.
 - Autonomous Booking Agent: Assist users in finding, submitting, and confirming hotel accommodations.
+- Automated Zalo Communication: Connect a personal Zalo account via QR code to automatically contact hotels, request room details, and coordinate booking details directly with hotel managers.
 - RAG Memory System: Save and recall user preferences across sessions using semantic vectors.
 - Real-time Web Search: Fetch up-to-date travel information by integrating search API capabilities.
 - Deep Research: Perform comprehensive, multi-source investigation on destinations.
@@ -46,6 +47,7 @@ Key functionalities:
 - Deep Research: In-depth multi-step research synthesizing information from multiple web resources.
 
 ### Booking Agent
+- Autonomous Zalo Communication: Integrates the zalo-api-final library to authenticate users via QR codes, save session credentials, and automatically message hotels. The agent sends inquiries, tracks response statuses, and processes incoming hotel replies using a webhook listener to automatically update the dashboard booking states.
 - Intelligent booking form with interactive data validation.
 - Supports multiple lodging types (hotels, resorts, homestays, villas).
 - Filtering by mandatory and optional amenities.
