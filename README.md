@@ -336,5 +336,5 @@ Private - Internal Academic Archival Only.
 ---
 
 <p align="center">
-  Made with ❤️ by TravelAgent Team
+  Made with ❤️ by Bui Minh Cuong
 </p>
